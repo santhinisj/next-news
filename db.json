@@ -1,0 +1,9 @@
+{
+     "employeeOfTheMonth":[{
+          "employee":"santhini",
+          "position":"Software Engineer",
+          "image":"./public/image.jpg",
+          "description": "Frontend design and development"
+
+     }]
+}
