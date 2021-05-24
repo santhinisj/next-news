@@ -18,8 +18,17 @@ export const EOM =({employee}) =>{
 
 
 export const getServerSideProps = async(pageContext) =>{
-     const apiResponse = await fetch(`http://localhost:3004/employeeOfTheMonth`);
-     const employee = await apiResponse.json();
+
+     // const apiResponse = await fetch(`http://localhost:3004/employeeOfTheMonth`);
+     // const employee = await apiResponse.json();
+     const employee = [{
+               "employee":"santhini",
+               "position":"Software Engineer",
+               "image":"./public/image.jpg",
+               "description": "Frontend design and development"
+     
+          }];
+
      return {
           props:{
                employee: employee[0]

@@ -38,3 +38,7 @@ NEXT JS
  SSR  --- ->
  If we ssr a page , whenever it gets to the client it will be fully populated. Bots parse the page data will be already inside.
  
+
+npm run dev
+running json server
+json-server --watch db.json
