@@ -41,4 +41,6 @@ NEXT JS
 
 npm run dev
 running json server
+
+
 json-server --watch db.json
